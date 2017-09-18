@@ -1,0 +1,42 @@
+#content {
+    background-image: url("gandalf.png");
+    height: 572px;
+    width: 500px;
+    background-size: cover;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+    opacity: 0.8;
+}
+
+#reward {
+    color: orangered;
+}
+
+#panel {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#gandalf {
+    color: white;
+    font-size: 5em;
+}
+
+#content:hover {
+    opacity: 1;
+}
+
+#content:hover #panel {
+    display: none;
+}
+
+#content:hover #gandalf {
+    font-size: 2em;
+    margin-top: 100%;
+}
